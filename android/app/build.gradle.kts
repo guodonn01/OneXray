@@ -3,10 +3,6 @@ import java.util.Properties
 
 plugins {
     id("com.android.application")
-    // START: FlutterFire Configuration
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
-    // END: FlutterFire Configuration
     id("kotlin-android")
     kotlin("android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
@@ -96,7 +92,6 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.13.0")
 
     implementation("com.google.android.play:integrity:1.6.0")
-    implementation("com.google.android.gms:play-services-ads:25.1.0")
 
     implementation("androidx.datastore:datastore:1.2.1")
 
